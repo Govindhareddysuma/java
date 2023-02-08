@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+        ArrayList<String> list1=new ArrayList<String>();
+        list1.add("cat");
+        list1.add("dog");
+        list1.add("elephant");
+        ArrayList<String> list2=new ArrayList<String>();
+        list2.add("pen");
+        list2.add("pencil");
+        list2.add("book");
+        ArrayList<String> merge=new ArrayList<String>();
+        merge.addAll(list1);
+        merge.addAll(list2);
+        
+        System.out.println("Merged : "+merge);
+        
+        
+    }
